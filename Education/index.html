@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="logo1.jpg">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Education</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header" style=" height: 400px;">
+		<nav>
+			<div class="logo"><img src="logo1.jpg" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#portfolio_section">Stats</a></li>
+				
+				<li><a href="#services_section">Measures</a></li>
+				<li><a href="#contactus_section">Conclusion</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="search1.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Spread Knowledge</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p><i>"An investment in knowledge pays the best interest"</i></p>
+				<h5>In India, education in the rural segments is not only important to eradicate poverty and illiteracy, but also for a variety of other social, economic as well as cultural and political reasons.</h5>
+				
+			</div>
+			<div class="svg-image">
+				<img src="ed2.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			
+			
+		</div>
+	</header>
+
+
+
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">Benefits of Rural Education</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="ed4.jpg">
+				</div>
+				<div class="side-text">
+					<h2>Importance of Rural Education</h2>
+					
+<p class="item-1">Education unleashes new opportunities to access information and technology thereby enabling people to make better decisions.
+    It allows them to understand the laws, policies, rights, duties, and various other schemes concerning them.</p>
+    
+    <p class="item-2">Education indirectly contributes to the Agriculture Sector.If people of rural areas will get skill-based education then they'll be able to build capacity and understand technology in a far better way.</p>
+    
+    <p class="item-3">Education and employment are almost synonymous with each other.If people in rural areas will get high-quality education, then they’ll be able to become more eligible for both public and private sectors. </p>
+				</div>
+		</div>
+	</div>
+
+
+<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Stats And Data</p></center>
+		<div class="content">
+			<p>
+				Rural India is far behind Urban India in every Indicator of Progress.A look at the literacy levels in India over last 3 decades from the same rural urban lens gives us more or less similar numbers. Rural literacy rate is much lower than the urban literacy rate. The point to be noted is the gender disparity in this area, where the urban female literacy rate is almost higher by 20% than the rural female.
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>Literacy Levels in India (in %)</p>
+		<div class="smbox">
+		<span><center><div class="data">77.15</div><div class="det">Rural Male</div></center></span>
+		<span><center><div class="data">57.93</div><div class="det">Rural Female</div></center></span>
+		<span><center><div class="data">88.76</div><div class="det">Urban Male</div></center></span>
+		<span><center><div class="data">79.11</div><div class="det">Urban Female</div></center></span>
+		</div>
+	</div>
+
+
+
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Measures To Be Taken</p></center>
+		</div>
+		<div class="s-card"><img src="women.jpg"><p>Encouraging Women to study.
+
+           </p></div>
+		<div class="s-card"><img src="mothertong.jpg"><p>Teaching in Mother Tongue.
+</p></div>
+		<div class="s-card"><img src="bkkk.jpg"><p>Fostering love for reading</p></div>
+		<div class="s-card"><img src="techno.webp"><p>Use of technology like audio-video books, solar power</p></div>
+	<div class="s-card"><img src="volunt.jpeg"><p>Volunteering for the cause</p></div>
+		<div class="s-card"><img src="te.jpg"><p>Revamping the Teacher Education System</p></div>
+		<div class="s-card"><img src="sss.jpeg"><p>Increasing community ownership of the government schooling systems</p></div>
+	
+	</div>
+
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Conclusion</p></center>
+		<div class="csec">
+           
+        </div>
+		<div class="back-contact">
+			<div class="cc">
+                <p>Today, after almost 7 decades of independence, the existing policy dynamics has taken a toll on rural India. The villages take a backseat in almost every aspect of socio-economic analysis. We have created an economy of rich cities and poor villages, surging urban areas and decaying rural areas.</p>
+			
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #04b831, #000099); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“The more that you read, the more things you will know, the more that you learn, the more places you’ll go.”</div></marquee>
+
+
+
+</body>
+</html>
